@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Client:</strong>
+  <%= @project.client_id %>
+</p>
+
+<p>
+  <strong>Template:</strong>
+  <%= @project.template_id %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @project.value %>
+</p>
+
+<p>
+  <strong>Launch by:</strong>
+  <%= @project.launch_by %>
+</p>
+
+<p>
+  <strong>Dc completed on:</strong>
+  <%= @project.dc_completed_on %>
+</p>
+
+<p>
+  <strong>Tc completed on:</strong>
+  <%= @project.tc_completed_on %>
+</p>
+
+<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Back', projects_path %>

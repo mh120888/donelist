@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  project_id: 1
+  person_id: 1
+  type: 
+  to_be_completed_on: 2015-02-16 21:26:55
+  completed_on: 2015-02-16 21:26:55
+
+two:
+  project_id: 1
+  person_id: 1
+  type: 
+  to_be_completed_on: 2015-02-16 21:26:55
+  completed_on: 2015-02-16 21:26:55

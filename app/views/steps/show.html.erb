@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Project:</strong>
+  <%= @step.project_id %>
+</p>
+
+<p>
+  <strong>Person:</strong>
+  <%= @step.person_id %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @step.type %>
+</p>
+
+<p>
+  <strong>To be completed on:</strong>
+  <%= @step.to_be_completed_on %>
+</p>
+
+<p>
+  <strong>Completed on:</strong>
+  <%= @step.completed_on %>
+</p>
+
+<%= link_to 'Edit', edit_step_path(@step) %> |
+<%= link_to 'Back', steps_path %>
